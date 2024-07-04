@@ -1,5 +1,5 @@
 import React from 'react'
-import book from "../../public/book.jpg"
+import book from "../../public/book.png"
 function Banner() {
     return (
         <>
@@ -27,7 +27,7 @@ function Banner() {
 
 
                 <div className="order-1 w-full md:w-1/2">
-                    <img src={book} className="w-80 h-92" alt="Book" />
+                    <img src={book} className="w-85 h-85" alt="Book" />
                 </div>
             </div>
         </>
