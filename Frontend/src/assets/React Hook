@@ -1,7 +1,0 @@
-React Hook:-
-....................
-Hooks are functions in React that allow us to manage state, do changes as per the state, and other React features without using class components. They provide a way to resue stateful logic across components.
-
-1. useState() :- It is used to manage and update state, while 
-
-2. useEffect() :- the useEffect hook is used for handling side effects during component mount, update and unmount.
