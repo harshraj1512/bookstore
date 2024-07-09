@@ -1,7 +1,8 @@
 import React from 'react'
 import {Routes, Route} from "react-router-dom"
 import Home from './home/Home'
-import Courses from './components/Courses'
+import Courses from './courses/Courses'
+
 
 function App() {
   return (<>

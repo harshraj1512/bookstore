@@ -5,7 +5,7 @@ function Cards({item}) {
     return (
         <>
             <div className="mt-10 my-3 p-3">
-                <div className="card bg-base-100 w-92 shadow-xl">
+                <div className="card  bg-base-100 w-92 shadow-xl hover:scale-105 duration-200">
                     <figure>
                         <img
                             src={item.image}
@@ -19,7 +19,7 @@ function Cards({item}) {
                         <p>{item.title}</p>
                         <div className="card-actions justify-between">
                             <div className="badge badge-outline">${item.price}</div>
-                            <div className="cursor-pointer px-2 py-1 rounded-full border-[2px] hover:bg-pink-500 hover:text-white px-2 py-1 duration-200">BuY Now</div>
+                            <div className="cursor-pointer px-2 py-1 rounded-full border-[2px] hover:bg-pink-500 hover:text-white px-2 py-1 duration-200">Buy Now</div>
                         </div>
                     </div>
                 </div>
